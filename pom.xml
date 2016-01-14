@@ -32,6 +32,18 @@
  +              <configuration>
  +                <finalName>myApp_77846459S</finalName>
  +              </configuration>
+          <executions>
+ +          <execution>
+ +            <id>jar:jar</id>
+ +            <phase>package</phase>
+ +            <goals>
+ +              <goal>jar:jar</goal>
+ +            </goals>
+ +            <configuration>
+ +              <finalName>myApp_77806186S</finalName>
+ +            </configuration>
+ +          </execution>
+ +        </executions>
  +        </plugin>
  +      </plugins>
  +    </build>
